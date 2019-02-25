@@ -22,3 +22,10 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 Code is licensed under the Apache 2.0 license.
 
 
+Required Changes
+================
+
+Needed to remove existing style tags
+Needed to add in link to my stylesheet
+Needed to change all links to use a relative URI instead of absolute
+Needed to add link to fonts

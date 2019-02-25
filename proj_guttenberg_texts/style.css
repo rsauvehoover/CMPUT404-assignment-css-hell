@@ -1,0 +1,95 @@
+body { 
+  font-family: 'Lora', serif;
+  color: #2F3F3C;
+  background: #F7F0D7;
+  margin-right: 15%;
+  margin-left: 15%;
+  /*font-family: "Times New Roman", serif;*/
+  text-align: justify 
+}
+
+/* Style paragraphs */
+p {
+  /* We don't need a particularly big indent */
+  text-indent: 5%; 
+  /*We still want a noticeable margin on paragraphs*/
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; 
+}
+
+/* Preamble info should still be there, but the reduced opacity makes it clear that *
+ * it's not part of the book*/
+pre {
+  opacity: 0.3;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Cinzel', serif;
+  text-align: center;
+}
+/* Style headers */
+/* h1 is usually main titles, so bold, underline and center, and make the 
+ * text a little bigger*/
+h1 {
+  text-transform: uppercase;
+  font-size: 5em;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* h3 is chapter title etc, so we'll just bold*/
+h2,h3 {
+  font-weight: bold;
+  font-size: 1.75em;
+}
+
+/*For the caldecott book need some specific indent rules
+ * leaving them simirlar to original*/
+.indent2 { text-indent: 2em }
+.indent4 { text-indent: 4em }
+.indent15 { text-indent: 15em }
+
+.figcenter {
+  align-items: center; 
+  margin: 0 auto;
+}
+
+.block1a, .block1b, .block1, .block2, .block3, .block4 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+.block1a { width: 320px; }
+.block1b { width: 420px; }
+.block1 { width: 400px; }
+.block2 { width: 500px; }
+.block3 { width: 600px; }
+.block4 { width: 700px; }
+
+
+/* Image and caption rules */
+
+img {
+  border-radius: 25px;
+  border-style: groove;
+  border-width: 3px;
+  border-color: #663300;
+  margin: 3em auto .5em auto;
+}
+
+.caption {
+  text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link {
+  margin-top: -.4em;
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50%;
+}
+
+a:hover {color:#a33b20}
